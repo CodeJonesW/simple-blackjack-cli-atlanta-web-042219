@@ -38,7 +38,8 @@ if user_input == "h"
 elsif user_input == "s"
   card_total
 else 
-end
+  invalid_command
+ end
 end
 
 def invalid_command
