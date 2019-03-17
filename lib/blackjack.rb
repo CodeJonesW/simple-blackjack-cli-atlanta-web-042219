@@ -25,6 +25,7 @@ end
 def initial_round
  2.times do 
    deal_card = sum
+   puts sum
  end
   display_card_total(deal_card)
   
