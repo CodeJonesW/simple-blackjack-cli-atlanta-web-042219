@@ -31,14 +31,7 @@ def initial_round
 end
 
 def hit?(num)
-  prompt_user
-  get_user_input
-  if gets == "h"
-    deal_card
-  elsif get_user_input != "h" || get_user_input != "s"
-    invalid_command
-    prompt_user
-end
+
 
 def invalid_command
   # code invalid_command here
