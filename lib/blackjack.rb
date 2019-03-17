@@ -28,7 +28,6 @@ def initial_round
   card_one + card_two = card_total
   display_card_total(card_total)
 end
-end
 
 def hit?(num)
 prompt_user
