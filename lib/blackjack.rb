@@ -33,7 +33,7 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  if get_user_input == "h"
+  if gets == "h"
     deal_card
   elsif get_user_input != "h" || get_user_input != "s"
     invalid_command
