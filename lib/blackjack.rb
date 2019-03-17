@@ -31,7 +31,8 @@ def initial_round
 end
 
 def hit?(num)
-
+prompt_user
+get_user_input
 end
 def invalid_command
   # code invalid_command here
