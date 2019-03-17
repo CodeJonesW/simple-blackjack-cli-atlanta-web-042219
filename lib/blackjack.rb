@@ -24,8 +24,7 @@ end
 
 def initial_round
  2.times do 
-  deal_card += card_total
-  deal_card += card_total
+  deal_card + card_total = card_total
   display_card_total(card_total)
 end
 end
